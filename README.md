@@ -1,8 +1,20 @@
-# React + Vite
+<h1>📖| BookTuary</h1>
+<br>
+<table style="border: none;">
+  <tr>
+    <td style="padding-right: 500;">
+      <h2>📋 Descrição</h2>
+      <p>O BookTuary é uma plataforma inovadora em desenvolvimento que visa conectar leitores a uma vasta biblioteca de livros, promovendo uma experiência de leitura interativa e comunitária. Este projeto, parte do curso de Análise e Desenvolvimento de Sistemas, busca não apenas fornecer um local para descobrir e se cadastrar em livros, mas também criar um ambiente onde os usuários possam compartilhar suas experiências de leitura e interagir com outros amantes da literatura.</p>
+      <br>
+    </td>
+    <td>
+      <img src="https://miro.medium.com/v2/resize:fit:1000/0*bIYBAoV_l5mtEJpg.jpg" alt="Imagem do BookTuary" width="5000"/> <!-- Aumente a largura para 500 -->
+    </td>
+  </tr>
+</table>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>🔄 Status do Projeto</h2>
+<p>Atualmente, o BookTuary está em fase de desenvolvimento. O foco inicial é construir uma interface de usuário intuitiva e responsiva, que facilite o cadastro de novos usuários e o acesso a um catálogo diversificado de obras literárias. </p>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>💻 Tecnologias Utilizadas</h2>
+<img align="center" alt="React" height="50" width="50" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png">
