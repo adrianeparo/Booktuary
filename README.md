@@ -15,6 +15,8 @@
 
 <h2>🔄 Status do Projeto</h2>
 <p>Atualmente, o BookTuary está em fase de desenvolvimento. O foco inicial é construir uma interface de usuário intuitiva e responsiva, que facilite o cadastro de novos usuários e o acesso a um catálogo diversificado de obras literárias. </p>
-
+<br>
+<div align="center">
 <h2>💻 Tecnologias Utilizadas</h2>
 <img align="center" alt="React" height="50" width="50" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png">
+</div>
