@@ -8,7 +8,7 @@
       <br>
     </td>
     <td>
-      <img src="https://miro.medium.com/v2/resize:fit:1000/0*bIYBAoV_l5mtEJpg.jpg" alt="Imagem do BookTuary" width="5000"/> <!-- Aumente a largura para 500 -->
+      <img src="https://i.pinimg.com/originals/73/69/6e/73696e022df7cd5cb3d999c6875361dd.gif" alt="Imagem do BookTuary" width="300"/> <!-- Aumente a largura para 500 -->
     </td>
   </tr>
 </table>
