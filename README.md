@@ -4,7 +4,7 @@
   <tr>
     <td style="padding-right: 500;">
       <h2>📋 Descrição</h2>
-      <p>O BookTuary é uma plataforma inovadora em desenvolvimento que visa conectar leitores a uma vasta biblioteca de livros, promovendo uma experiência de leitura interativa e comunitária. Este projeto, parte do curso de Análise e Desenvolvimento de Sistemas, busca não apenas fornecer um local para descobrir e se cadastrar em livros, mas também criar um ambiente onde os usuários possam compartilhar suas experiências de leitura e interagir com outros amantes da literatura.</p>
+      <p>O BookTuary é uma plataforma inovadora em desenvolvimento que visa conectar leitores a uma vasta biblioteca de livros, promovendo uma experiência de leitura interativa e comunitária. Este projeto, parte de uma matéria da faculdade, busca não apenas fornecer um local para descobrir livros, mas também criar um ambiente onde os usuários possam compartilhar suas experiências de leitura e interagir com outros amantes da literatura.</p>
       <br>
     </td>
     <td>
