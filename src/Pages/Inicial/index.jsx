@@ -2,30 +2,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Gato from '../../assets/gato.svg'
+import {HomeC, Imagem, Content, Logo, TextSection, ButtonPrimary, ButtonSecondary } from './style';
 
 
 function Inicial() {
 
   return (
-    <>
-      <div className="home-container">
-        <header>
-          <h1 className="logo">bookTuary</h1> 
-        </header>
+  
+      <HomeC>
 
-        <div className="content">
-          <div className="text-section">
-            <h2>Onde cada livro encontra seu legado</h2>
-            <Link to="/cadastro" className="btn-primary">Cadastre-se</Link>
-            <Link to="/login" className="btn-secondary">Já tem uma conta? Faça seu login</Link>
-          </div>
+      <Imagem>
+        <img src={Gato} />
+      </Imagem>
 
-          <div className="image-section">
-            <img src={Gato}/>
-          </div>
-        </div>
-      </div>
-    </>
+      <Content>
+
+        <Logo>bookTuary</Logo>
+
+        <TextSection>
+          <h2>Onde cada livro encontra seu legado</h2>
+          <ButtonPrimary to="/cadastro" >Cadastre-se</ButtonPrimary>
+          <ButtonSecondary to="/login">Já tem uma conta? Faça seu login</ButtonSecondary>
+        </TextSection>
+
+      </Content>
+
+      
+
+      </HomeC>
+
   )
 }
 
