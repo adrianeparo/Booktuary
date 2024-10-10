@@ -20,10 +20,15 @@ function Inicial() {
         <Logo>bookTuary</Logo>
 
         <TextSection>
+          
           <h2>Onde cada livro encontra seu legado</h2>
-          <ButtonPrimary to="/cadastro" >Cadastre-se</ButtonPrimary>
-          <ButtonSecondary to="/login">Já tem uma conta? Faça seu login</ButtonSecondary>
+
+          <h3>O refúgio perfeito para amantes da leitura. Explore livros, descubra autores e conecte-se com outros.</h3>
+  
         </TextSection>
+
+        <ButtonPrimary to="/cadastro" >Cadastre-se</ButtonPrimary>
+        <ButtonSecondary to="/login">Já tem uma conta? Faça seu login</ButtonSecondary>
 
       </Content>
 
