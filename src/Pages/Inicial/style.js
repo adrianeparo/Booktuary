@@ -59,16 +59,24 @@ export const Logo = styled.h1`
 export const TextSection = styled.div`
   h2 {
     font-family: "Asul", serif;
-    margin-top: 70px;
+    margin-top: 60px;
     color: rgba(247, 246, 243, 0.70);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Asul;
     font-size: 85px;
     font-style: normal;
-    font-weight: 400;
+    font-weight:200;
     line-height: 88px; /* 97.778% */
     letter-spacing: -0.9px;
     width: 700px;
+
+    @media (min-width: 1800px) {
+    font-size: 6vw; /* Aumenta a fonte em telas maiores */
+    width: 800px;
+    margin-top: 15vh;
+    line-height: 10.8vh; /* 97.778% */
+
+  }
 }
 
     h3 {
@@ -77,7 +85,15 @@ export const TextSection = styled.div`
       color: #909090;
       font-weight: 20;
       width: 550px;
+
+
+      @media (min-width: 1800px) {
+        font-size: 1vw;
+        margin-top: 8vh;
+        width: 700px;
     }
+
+   
 
 `;
 
