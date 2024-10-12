@@ -32,7 +32,7 @@ export const Imagem = styled.div`
 
 `;
 
-export const Form = styled.div`
+export const Form = styled.form`
   
   display: flex;
   justify-content: center;
