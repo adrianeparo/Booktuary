@@ -84,7 +84,8 @@ export const TextSection = styled.div`
       font-size: 15px;
       color: #909090;
       font-weight: 20;
-      width: 550px;
+      width: 550px; 
+    }
 
 
       @media (min-width: 1800px) {
@@ -126,10 +127,12 @@ export const ButtonPrimary = styled(Link)`
     border: 3px solid #6E78E9; /* Cor da borda */
     filter: blur(1.5px); /* Aplica o efeito de desfoque na borda */
     z-index: -1; /* Coloca o pseudo-elemento atrás do texto */
+
   }
 
   &:hover::before {
     filter: blur(6px); /* Aumenta o desfoque no hover */
+
   }
 
   &:hover {
