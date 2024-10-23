@@ -58,6 +58,7 @@ export const InputNome = styled.div`
 
   @media (min-width: 1800px) {
    width : 90% ;
+   padding-bottom: 10px;
   }
   
   p{
@@ -90,11 +91,18 @@ export const DateNick = styled.div`
     display: flex;
     justify-content: space-between;
     width: 24vw;
-    gap: 10px;
+    
 
+    @media (min-width: 1200px) {
+    gap: 2px;
+    margin-bottom: 2vh;
+
+  }
 
     @media (min-width: 1800px) {
-    width : 25vw ;
+    width : 20vw ;
+    gap: 3px;
+    margin-bottom: -1vh;
   }
 
 `;
@@ -109,6 +117,10 @@ export const InputNick = styled.div`
   text-align: left;
   font-size: 14px;
   width: 70%;
+
+  @media (min-width: 1200px) {
+   margin-left: -2.5vw;
+  }
   
   p{
     display: flex;
@@ -118,7 +130,7 @@ export const InputNick = styled.div`
   }
 
   input {
-    width: 100%; 
+    width: 10vw; 
     padding: 10px 0;
     border: none;
     border-bottom: 2px solid #6F79FF; 
@@ -126,6 +138,15 @@ export const InputNick = styled.div`
     font-size: 16px;
     color: #909090; 
     outline: none; 
+
+    @media (min-width: 1200px) {
+    width: 14vw;
+  }
+
+  @media (min-width: 1800px) {
+    width: 12vw;
+  }
+
   }
   
    
@@ -145,8 +166,12 @@ export const InputDate = styled.div`
   font-size: 14px;
   width: 70%;
 
+  @media (min-width: 1200px) {
+   margin-left: 1vw;
+  }
+
   @media (min-width: 1800px) {
-    margin-top: -117px;
+    margin-top: -118px;
   }
   
   p{
@@ -157,7 +182,7 @@ export const InputDate = styled.div`
   }
 
   input {
-    width: 100%;
+    width: 14vw;
     padding: 10px 0;
     border: none;
     border-bottom: 2px solid #6F79FF;
@@ -165,6 +190,11 @@ export const InputDate = styled.div`
     font-size: 16px;
     color: #909090;
     outline: none; 
+
+    @media (min-width: 1800px) {
+    width: 12vw;
+  }
+
   }
   
    

@@ -73,7 +73,8 @@ export const TextSection = styled.div`
     @media (min-width: 1800px) {
     font-size: 6vw; /* Aumenta a fonte em telas maiores */
     width: 800px;
-    margin-top: 15vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     line-height: 10.8vh; /* 97.778% */
 
   }

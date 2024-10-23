@@ -38,7 +38,7 @@ export const Form = styled.form`
   justify-content: center;
   align-items: center;
   font-family: 'Asul', serif; /* Fonte personalizada */
-  margin-right: 35vh;
+  margin-right: 25vh;
   flex-direction: column;
   padding: 30px;
   max-width: 50%;
@@ -192,7 +192,7 @@ export const Esqueceu = styled(Link)`
   }
 
   @media (min-width: 1800px) {
-        padding-left: 25vh;
+        padding-left: 24vh;
     }
 `;
 
@@ -208,6 +208,6 @@ export const BotaoDois = styled(Link)`
   }
 
   @media (min-width: 1800px) {
-    margin-left: 1px;
+    margin-right: -3px;
     }
 `;
